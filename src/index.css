@@ -1,0 +1,66 @@
+@import url('./styles/global.css');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+button {
+  cursor: pointer;
+}
+
+a {
+  color: #1972A8;
+  text-decoration: none;
+}
+
+input[type="text"],
+input[type="password"] {
+  background-color: #FDFAFA;
+  border: 1px solid #E8E8E8;
+  height: 51px;
+  border-radius: 8px;
+  margin: 8px 0;
+  padding: 0 16px;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+@media (max-width:950px) {
+  .aside-img {
+    display: none;
+  }
+
+  .aside-container {
+    width: 100%;
+  }
+
+  .aside-container form {
+    min-width: 100%;
+    padding: 3.5rem;
+  }
+
+  input,
+  button {
+    width: 100%;
+  }
+
+  .form-link,
+  .aside-container span {
+    font-size: 1.5rem;
+  }
+}
